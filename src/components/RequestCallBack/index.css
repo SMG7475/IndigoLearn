@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+  border-radius: 8px;
+  border-top-color: #4b0082;
+  border-top-style: solid;
+  background-color: #ffffff;
+  margin: 50px;
+}
+@media (max-width: 700px) {
+  .form {
+    width: 80vw;
+  }
+}
+.call-back-header {
+  font-size: 20px;
+  text-align: center;
+}
+.input {
+  margin: 10px;
+}
+.call-back-button {
+  background-color: #4b0082;
+  border-color: transparent;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+}
+.success-text {
+  color: #ffffff;
+  font-size: large;
+  font-weight: 600;
+  align-self: center;
+  justify-content: center;
+}
+.modal-container {
+  background-color: #cf9fff;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+.cancel-button {
+  background-color: transparent;
+  border-color: transparent;
+  align-self: flex-end;
+}

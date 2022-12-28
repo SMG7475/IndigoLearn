@@ -1,0 +1,57 @@
+.header {
+  font-size: 20px;
+}
+.become-subs {
+  font-size: 16px;
+  font-weight: 400;
+}
+.brochure-button {
+  background-color: #4b0082;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 5px;
+  border-color: transparent;
+  width: 180px;
+  height: 50px;
+  margin: 20px;
+}
+.spans {
+  border-style: solid;
+  background-color: #ff2400;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+}
+.learner-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.detail-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.request {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (min-width: 700px) {
+  .request-call-back {
+    display: none;
+  }
+}
+@media (max-width: 701px) {
+  .request {
+    display: none;
+  }
+  .request-call-back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
