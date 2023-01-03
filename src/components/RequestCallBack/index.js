@@ -17,8 +17,13 @@ const RequestCallBack = () => {
   const [email, setEmail] = useState('')
   const [qualification, setQualification] = useState('')
   const [interest, setInterest] = useState('')
+  const subs = e => {
+    e.preventDefault()
+    const forms = document.getElementById('form')
+    forms.reset()
+  }
   return (
-    <form className="form">
+    <form className="form" id="form" onSubmit={subs}>
       <h1 className="call-back-header">
         Aspiring to be an ACCA? Get in touch with us!
       </h1>
@@ -55,7 +60,7 @@ const RequestCallBack = () => {
       <Popup
         modal
         trigger={
-          <button type="button" className="call-back-button">
+          <button type="submit" className="call-back-button">
             Request Call Back
           </button>
         }
